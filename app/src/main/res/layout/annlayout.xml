@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="fill"
+    android:layout_margin="20dp"
+    android:elevation="20dp"
+    app:cardBackgroundColor="#b19cd9"
+    android:id="@+id/anncard"
+    app:cardCornerRadius="28dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textStyle="bold"
+            android:textColor="#7752BD"
+            android:layout_gravity="start"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:layout_marginStart="10dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/msg"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#7752BD"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#7752BD"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+        </TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_admin_login.xml" value="0.2" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_announcement.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_date_sheet.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_login_screen.xml" value="0.21476166068682725" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_material_sem.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_material_sub.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_pdfview.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_upload_pdf.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_upload_pdf_material.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_view_announcements.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_weekly_time_table.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/annlayout.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/fragment_upload_bottom_sheet.xml" value="0.19067977768277042" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/pdflayout.xml" value="0.17186897880539498" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/semmateriallayout.xml" value="0.18982471141513468" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.19067977768277042" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

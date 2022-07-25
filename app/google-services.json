@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "850100215599",
+    "project_id": "sardardmeow",
+    "storage_bucket": "sardardmeow.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850100215599:android:58acbff59b7cdb037f8bda",
+        "android_client_info": {
+          "package_name": "com.meow.sardard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850100215599-vk16g5q46bosud63daj8d14c840ao0ep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBVKyWiDA11Ct92l5FZG8WuMgz_8xVCm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850100215599-vk16g5q46bosud63daj8d14c840ao0ep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

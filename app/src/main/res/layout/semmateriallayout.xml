@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="fill"
+    android:layout_margin="20dp"
+    android:elevation="20dp"
+    app:cardBackgroundColor="#b19cd9"
+    android:id="@+id/semcard"
+    app:cardCornerRadius="28dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:textColor="#7752BD"
+            android:layout_gravity="start"
+            android:padding="8dp"
+            android:layout_marginStart="25dp">
+
+        </TextView>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
