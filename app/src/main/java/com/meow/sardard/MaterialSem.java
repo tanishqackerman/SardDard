@@ -34,7 +34,7 @@ public class MaterialSem extends AppCompatActivity implements SelectListener{
         mrv = findViewById(R.id.mrv);
         SemAdapter semAdapter = new SemAdapter(this, list, this);
         mrv.setHasFixedSize(true);
-        mrv.setLayoutManager(new GridLayoutManager(this, 1));
+        mrv.setLayoutManager(new GridLayoutManager(this, 2));
         mrv.setAdapter(semAdapter);
     }
 

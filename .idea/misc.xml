@@ -3,14 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_add_admin.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_admin_login.xml" value="0.2" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_announcement.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_date_sheet.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_google_login.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_login_screen.xml" value="0.21476166068682725" />
-        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_main.xml" value="0.18826509075559308" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_material_sem.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_material_sub.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_pdfview.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_splash_screen.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_upload_pdf.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_upload_pdf_material.xml" value="0.19067977768277042" />
         <entry key="..\:/Users/tanis/AndroidStudioProjects/SarDard/app/src/main/res/layout/activity_view_announcements.xml" value="0.19067977768277042" />

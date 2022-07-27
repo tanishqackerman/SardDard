@@ -50,7 +50,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
-            <androidx.cardview.widget.CardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/annadmin"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
@@ -83,9 +83,9 @@
                         android:textStyle="bold" />
                 </LinearLayout>
 
-            </androidx.cardview.widget.CardView>
+            </com.google.android.material.card.MaterialCardView>
 
-            <androidx.cardview.widget.CardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/dsadmin"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
@@ -119,9 +119,9 @@
                         android:textStyle="bold" />
                 </LinearLayout>
 
-            </androidx.cardview.widget.CardView>
+            </com.google.android.material.card.MaterialCardView>
 
-            <androidx.cardview.widget.CardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/studyadmin"
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
@@ -155,42 +155,42 @@
                         android:textStyle="bold" />
                 </LinearLayout>
 
-            </androidx.cardview.widget.CardView>
+            </com.google.android.material.card.MaterialCardView>
 
-<!--            <androidx.cardview.widget.CardView-->
-<!--                android:id="@+id/massadmin"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="100dp"-->
-<!--                android:layout_row="3"-->
-<!--                android:layout_column="0"-->
-<!--                android:layout_rowWeight="1"-->
-<!--                android:layout_gravity="fill"-->
-<!--                android:layout_margin="20dp"-->
-<!--                android:elevation="20dp"-->
-<!--                app:cardBackgroundColor="#b19cd9"-->
-<!--                app:cardCornerRadius="28dp">-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/adminadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_rowWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                app:cardBackgroundColor="#b19cd9"
+                app:cardCornerRadius="28dp">
 
-<!--                <LinearLayout-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:layout_height="wrap_content"-->
-<!--                    android:layout_gravity="center"-->
-<!--                    android:orientation="vertical">-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
 
-<!--                    <ImageView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_gravity="center"-->
-<!--                        android:src="@drawable/ic_baseline_sports_basketball_24" />-->
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_sports_basketball_24" />
 
-<!--                    <TextView-->
-<!--                        android:layout_width="wrap_content"-->
-<!--                        android:layout_height="wrap_content"-->
-<!--                        android:layout_gravity="center"-->
-<!--                        android:text="Mass Bunk Poll"-->
-<!--                        android:textColor="#7752BD"-->
-<!--                        android:textStyle="bold" />-->
-<!--                </LinearLayout>-->
-<!--            </androidx.cardview.widget.CardView>-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Make someone Admin"
+                        android:textColor="#7752BD"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
         </GridLayout>
     </ScrollView>

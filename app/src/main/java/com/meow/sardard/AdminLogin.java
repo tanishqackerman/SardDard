@@ -15,7 +15,7 @@ import android.view.View;
 
 public class AdminLogin extends AppCompatActivity {
 
-    CardView annadmin, dsadmin, studyadmin, massadmin;
+    CardView annadmin, dsadmin, studyadmin, adminadmin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class AdminLogin extends AppCompatActivity {
         annadmin = findViewById(R.id.annadmin);
         dsadmin = findViewById(R.id.dsadmin);
         studyadmin = findViewById(R.id.studyadmin);
-//        massadmin = findViewById(R.id.massadmin);
+        adminadmin = findViewById(R.id.adminadmin);
 
         annadmin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,6 +45,13 @@ public class AdminLogin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(AdminLogin.this, UploadPDFMaterial.class).putExtra("what", "material"));
+            }
+        });
+
+        adminadmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AdminLogin.this, AddAdmin.class));
             }
         });
     }

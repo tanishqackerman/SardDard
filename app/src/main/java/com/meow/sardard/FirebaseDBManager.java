@@ -2,6 +2,7 @@ package com.meow.sardard;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.widget.Toast;
 
@@ -38,8 +39,10 @@ public class FirebaseDBManager {
     SelectListener listener;
     List<PDFData> list = new ArrayList<PDFData>();
     List<AnnData> listann = new ArrayList<AnnData>();
+    List<String> listad = new ArrayList<String>();
     PDFAdapter pdfAdapter = new PDFAdapter(context, list, listener);
     AnnAdapter annAdapter = new AnnAdapter(context, listann);
+    boolean bool;
 
     public FirebaseDBManager(Context context, String folder) {
         this.context = context;
@@ -138,5 +141,30 @@ public class FirebaseDBManager {
         return databaseReference.push().setValue(annData);
     }
 
-//    public boolean checkAdmin()
+    public void checkAdmin(String email) {
+        bool = false;
+        databaseReference = FirebaseDatabase.getInstance().getReference(folder);
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot dataSnapshot: snapshot.getChildren()) {
+                    if (email.equals(dataSnapshot.getValue().toString())) {
+                        context.startActivity(new Intent(context, AdminLogin.class));
+                        bool = true;
+                        break;
+                    }
+                }
+                if (!bool) Toast.makeText(context, "You're not an Admin", Toast.LENGTH_SHORT).show();
+            }
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
+
+    public Task<Void> addAdmin(String email) {
+        databaseReference = FirebaseDatabase.getInstance().getReference(folder);
+        return databaseReference.push().setValue(email);
+    }
 }
